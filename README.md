@@ -1,19 +1,13 @@
-# [jeanregisser.com](https://jeanregisser.com)
+# My Home Page
 
 ## Overview
 
-Codebase for [jeanregisser.com](https://jeanregisser.com)
+Codebase for [sanjiv.dev](https://sanjiv.dev)
 
-Portfolio site built using Gatsby + Netlify.
+Personal site built using Gatsby + Netlify.
 
 ### Tooling
-- Netlify
 - GatsbyJS
-- React Reveal
+- React
+- Netlify
 - Google Analytics
-
-### Testing
-
-<a href="https://www.browserstack.com/">
-    <img alt="BrowserStack" src="./browserstack-logo.svg" width="200" />
-</a>

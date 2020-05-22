@@ -1,37 +1,19 @@
-const url = require("url");
+const url = require('url');
 
 module.exports = {
   siteMetadata: {
-    title: `Jean Regisser { software engineer }`,
-    description: `Portfolio of software engineer Jean Regisser.`,
-    author: `@jeanregisser`,
+    title: `Sanjiv Kumar`,
+    description: `Personal Site of Sanjiv Kumar.`,
+    author: `sanjivkumar`,
     // These are provided by the netlify build
     repositoryUrl:
       (process.env.REPOSITORY_URL &&
         // strip out the auth info present in the url
         url.format(new URL(process.env.REPOSITORY_URL), { auth: false })) ||
-      "",
-    commitHash: process.env.COMMIT_REF || "dev",
+      '',
+    commitHash: process.env.COMMIT_REF || 'code',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/data/`,
-      },
-    },
-    `gatsby-transformer-json`,
-    `gatsby-transformer-yaml`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -41,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jean Regisser`,
-        short_name: `Regisser`,
+        name: `Sanjiv Kumar`,
+        short_name: `Sanjiv`,
         start_url: `/`,
         // background_color: `#663399`,
         theme_color: `#fffff`,
@@ -69,5 +51,7 @@ module.exports = {
         // For all the options check babel-plugin-react-css-modules README link provided above
       },
     },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 };

@@ -5,8 +5,8 @@
 .header {
   position: relative;
   /* z-index: 1; */
-  height: 100vh;
-  height: calc(100vh - var(--vh-offset, 0px));
+  height: 90vh;
+  /* height: calc(100vh - var(--vh-offset, 0px)); */
   /* background-color: pink; */
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 .description {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 15px;
   letter-spacing: 0.12em;
   padding-left: 0.12em;
@@ -36,12 +36,12 @@
 }
 
 .description::before {
-  content: "{ ";
+  content: '{ ';
   opacity: 0.5;
 }
 
 .description::after {
-  content: " }";
+  content: ' }';
   opacity: 0.5;
 }
 
@@ -74,7 +74,7 @@
 
 @keyframes fade-top {
   0% {
-    /* 
+    /*
      * Uses translate3d to workaround ie11 bug with vh in translateY
      * See https://stackoverflow.com/questions/42454352/2d-transform-transition-dosent-work-with-vw-and-vh-units-in-ie11
      */
