@@ -6,6 +6,10 @@ Codebase for [sanjiv.dev](https://sanjiv.dev)
 
 Personal site built using Gatsby + Netlify.
 
+### TODO
+
+- Add Dark Theme
+
 ### Tooling
 
 - GatsbyJS
