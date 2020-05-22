@@ -1,5 +1,6 @@
 import { faGithub, faLinkedin, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faBlog, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import React from 'react';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -42,6 +43,11 @@ const IndexPage = ({ data }) => {
               <SocialLink name="Medium" icon={faMedium} href="https://medium.com/@esanjiv" />
               <SocialLink name="LinkedIn" icon={faLinkedin} href="https://www.linkedin.com/in/esanjivkumar/" />
               <SocialLink name="InDepth.dev" icon={faBlog} href="https://indepth.dev/author/sanjiv/" />
+              <OutboundLink href="mailto:mr.san.kumar@gmail.com"></OutboundLink>
+              <OutboundLink href="https://twitter.com/esanjiv"></OutboundLink>
+              <OutboundLink href="https://medium.com/@esanjiv"></OutboundLink>
+              <OutboundLink href="https://www.linkedin.com/in/esanjivkumar/"></OutboundLink>
+              <OutboundLink href="https://indepth.dev/author/sanjiv/"></OutboundLink>
             </div>
           </div>
         </div>

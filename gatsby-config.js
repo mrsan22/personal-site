@@ -14,10 +14,11 @@ module.exports = {
     commitHash: process.env.COMMIT_REF || 'code',
   },
   plugins: [
+    // Make sure this plugin is first in the array of plugins
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-13098799-1`,
+        trackingId: `G-Q9SCSEYQ5D`,
       },
     },
     {
