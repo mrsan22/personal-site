@@ -2,7 +2,7 @@
   "name": "personal-site",
   "private": true,
   "description": "A simple personal site built with Gatsby",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Sanjiv Kumar <mr.san.kumar@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
