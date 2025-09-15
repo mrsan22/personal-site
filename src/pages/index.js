@@ -42,12 +42,12 @@ const IndexPage = ({ data }) => {
               <SocialLink name="GitHub" icon={faGithub} href="https://github.com/mrsan22" />
               <SocialLink name="Medium" icon={faMedium} href="https://medium.com/@esanjiv" />
               <SocialLink name="LinkedIn" icon={faLinkedin} href="https://www.linkedin.com/in/esanjivkumar/" />
-              <SocialLink name="InDepth.dev" icon={faBlog} href="https://indepth.dev/author/sanjiv/" />
+              <SocialLink name="Personal Blog" icon={faBlog} href="https://sanjiv.blog/" />
               <OutboundLink href="mailto:mr.san.kumar@gmail.com"></OutboundLink>
               <OutboundLink href="https://twitter.com/esanjiv"></OutboundLink>
               <OutboundLink href="https://medium.com/@esanjiv"></OutboundLink>
               <OutboundLink href="https://www.linkedin.com/in/esanjivkumar/"></OutboundLink>
-              <OutboundLink href="https://indepth.dev/author/sanjiv/"></OutboundLink>
+              <OutboundLink href="https://sanjiv.blog/"></OutboundLink>
             </div>
           </div>
         </div>
